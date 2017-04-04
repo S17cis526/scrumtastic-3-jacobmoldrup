@@ -12,7 +12,7 @@ module.exports = {
   destroy: destroy
 }
 
-var auth = require('./lib/auth-basic.js');
+var auth = require('./../../lib/auth-cookie.js');
 
 
 /** @function list
